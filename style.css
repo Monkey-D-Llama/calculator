@@ -1,13 +1,52 @@
 .calculator{
     display: flex;
+    justify-content: stretch;
+    flex-direction: column;
+    gap: 6px;
     width: 400px;
     height: 600px;
     border: solid black 1px;
     background-color: lightgray;
 }
+.top{
+    padding: 10px;
+    display: flex;
+}
 .display{
+    display: flex;
+    color: white;
+    flex-direction: row-reverse;
     flex: 1 1 auto;
-    width: 90%;
-    height: 10%;
+    margin-right: 5px;
+    width: 350px;
+    height: 60px;
     background-color: Green;
+}
+.mid{
+    padding: 10px;
+    height: 500px;
+    display: flex;
+    justify-content: stretch;
+    gap: 6px;
+}
+.buttons{
+    gap: 6px;
+    align-items: center;
+    justify-content: space-evenly;
+    display: flex;
+    flex-direction: column;
+    flex: 3 1 auto;
+}
+.button-row{
+    gap: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+.button{
+    width: 40px;
+    height: 40px;
+    flex: 1 1 auto
+}
+#side{
+    flex: 1 2 auto;
 }

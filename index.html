@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,15 +8,51 @@
     <title>Calculator</title>
     <link rel="stylesheet" href="./style.css">
 </head>
+
 <body>
     <div class="calculator">
-        <div class="display">
-            
+        <div class="top">
+            <div class="display">
+                <p style="padding-right: 5px;">0123</p>
+            </div>
         </div>
-        <div class="buttons">
-            <p></p>
-        </div> 
+        <div class="mid">
+            <div class="buttons">
+                <div class="button-row">
+                    <button class="button" id="plus">+</button>
+                    <button class="button" id="minus">-</button>
+                    <button class="button" id="equals">=</button>
+
+                </div>
+                <div class="button-row">
+                    <button class="button">1</button>
+                    <button class="button">2</button>
+                    <button class="button">3</button>
+
+                </div>
+                <div class="button-row">
+                    <button class="button">4</button>
+                    <button class="button">5</button>
+                    <button class="button">6</button>
+
+                </div>
+                <div class="button-row">
+                    <button class="button">7</button>
+                    <button class="button">8</button>
+                    <button class="button">9</button>
+
+                </div>
+                <div class="button-row">
+                    <button class="button">0</button>
+                </div>
+            </div>
+            <div class="buttons" id="side">
+                <button class="button" id="multiply">*</button>
+                <button class="button" id="divide">/</button>
+            </div>
+        </div>
     </div>
     <script src="./script.js"></script>
 </body>
+
 </html>
