@@ -1,0 +1,13 @@
+.calculator{
+    display: flex;
+    width: 400px;
+    height: 600px;
+    border: solid black 1px;
+    background-color: lightgray;
+}
+.display{
+    flex: 1 1 auto;
+    width: 90%;
+    height: 10%;
+    background-color: Green;
+}
